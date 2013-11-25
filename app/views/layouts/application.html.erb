@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bapp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <%# Devise said to ensure flash messages (below) are in this file. %>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
