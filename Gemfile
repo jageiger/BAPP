@@ -1,4 +1,13 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+
+# This is a comment that I added just so it matches the formatting of all the other gems,
+gem 'devise'
+
+# Another comment. This is carrierwave, yo.
+gem 'carrierwave'
+
+# And again, another comment. meta_search is the gem.
+gem "meta_search"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
