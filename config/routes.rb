@@ -1,10 +1,13 @@
 Bapp::Application.routes.draw do
 
+  resources :events
   devise_for :users
-  root to: "home#index"
+  root to: redirect("/users/sign_in")
 
-  resources :users
-
+  resources :users do
+    
+  end
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
