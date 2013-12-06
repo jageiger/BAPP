@@ -11,12 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131206021652) do
+ActiveRecord::Schema.define(version: 20131206024502) do
 
   create_table "events", force: true do |t|
     t.string   "title"
     t.text     "description"
     t.datetime "dateTime"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "messages", force: true do |t|
+    t.string   "messageId"
+    t.string   "userId"
+    t.datetime "sent"
+    t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
