@@ -28,7 +28,10 @@ GEM
     arel (4.0.1)
     atomic (1.1.14)
     bcrypt-ruby (3.1.2)
+<<<<<<< HEAD
     bcrypt-ruby (3.1.2-x86-mingw32)
+=======
+>>>>>>> 746091471e569f733c783d5d8b1a254db8eed01b
     builder (3.1.4)
     carrierwave (0.9.0)
       activemodel (>= 3.2.0)

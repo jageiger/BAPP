@@ -1,4 +1,5 @@
 Bapp::Application.routes.draw do
+<<<<<<< HEAD
   devise_for :users
   #Ensure you have defined root_url to *something* in your config/routes.rb.
   #     For example:
@@ -6,6 +7,14 @@ Bapp::Application.routes.draw do
   #       root :to => "home#index"
   
   
+=======
+
+  devise_for :users
+  root to: "home#index"
+
+  resources :users
+
+>>>>>>> 746091471e569f733c783d5d8b1a254db8eed01b
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
