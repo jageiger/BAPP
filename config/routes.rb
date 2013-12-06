@@ -1,12 +1,9 @@
-Bapp::Application.routes.draw do
-
-  resources :events
+BAPP::Application.routes.draw do
+  
   devise_for :users
-  root to: redirect("/users/sign_in")
+  resources :events
 
-  resources :users do
-    
-  end
+  root :to => "events#index"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -48,7 +45,7 @@ Bapp::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

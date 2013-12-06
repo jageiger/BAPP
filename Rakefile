@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Bapp::Application.load_tasks
+BAPP::Application.load_tasks

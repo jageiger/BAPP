@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Bapp::Application.config.secret_key_base = '16674e242a3f8f6e5f2a1d97cce75327365de04de1da6bac972776346f67db1f610641be6288f5c890b352114bfebe8fccbf63ecd2655cba2e2c37b2bb62be61'
+BAPP::Application.config.secret_key_base = '093da8ebafe9d72b886ac1b42667e855c66ac7792378d17e2892eb18e2ad00825d0fe61e342c2252abcd68164955389b0d75bec614e57505bfc5cfcf34c5326b'

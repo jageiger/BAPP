@@ -1,4 +1,0 @@
-BAPP
-====
-
-BandAPP
